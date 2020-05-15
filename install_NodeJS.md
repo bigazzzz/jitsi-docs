@@ -42,7 +42,7 @@ uncomment the line:
 
 // defaultLanguage: ‘en’,
 
-and change "en" to "es".
+and change "en" to "ru".
 
 npm install
 
