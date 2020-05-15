@@ -1,10 +1,11 @@
-### Èíñòàëÿöèÿ
+### Ğ˜Ğ½ÑÑ‚Ğ°Ğ»ÑÑ†Ğ¸Ñ c Ğ¿Ğ¾Ğ¼Ğ¾Ñ‰ÑŒÑ NodeJS
+(c) https://community.jitsi.org/t/changing-the-default-language/15978
 
 Installation and basic configuration of Jitsi-Meet:
 
 wget -qO - https://download.jitsi.org/jitsi-key.gpg.key 2 | apt-key add -
 
-sh -c “echo ‘deb https://download.jitsi.org 4 stable/’ > /etc/apt/sources.list.d/jitsi-stable.list”
+sh -c â€œecho â€˜deb https://download.jitsi.org 4 stable/â€™ > /etc/apt/sources.list.d/jitsi-stable.listâ€
 
 apt-get -y update
 
@@ -39,7 +40,7 @@ nano -c config.js
 
 uncomment the line:
 
-// defaultLanguage: ‘en’,
+// defaultLanguage: â€˜enâ€™,
 
 and change "en" to "es".
 
